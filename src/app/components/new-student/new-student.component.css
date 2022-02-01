@@ -1,0 +1,46 @@
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.student{
+    display: flex;
+    padding: 10px;
+    box-shadow: 10px 10px 34px 6px rgba(0,0,0,0.67);
+-webkit-box-shadow: 10px 10px 34px 6px rgba(0,0,0,0.67);
+-moz-box-shadow: 10px 10px 34px 6px rgba(0,0,0,0.67);
+border-radius: 20px;
+}
+.studentLeft{
+    flex:1.5;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+.content{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.content>label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.content>span{
+    font-weight: 400;
+    font-size: 18px;
+}
+.studentRight{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.userImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
